@@ -1,0 +1,38 @@
+.newTaskInput {
+  margin-top: -27px;
+  width: 100%;
+}
+
+.formTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.formTask textarea {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  resize: none;
+  border: 0;
+  border-radius: 8px;
+  height: 3.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  flex: 1;
+}
+
+.newTaskInput button {
+  background-color: var(--blue-dark);
+  border: 0;
+  border-radius: 8px;
+  width: 5.5rem;
+  height: 3.2rem;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.375rem;
+}
