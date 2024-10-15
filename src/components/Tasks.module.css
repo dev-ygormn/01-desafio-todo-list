@@ -1,0 +1,54 @@
+.headerTasks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoCreateTasks {
+  color: var(--blue);
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
+}
+
+.infoCreateTasks span {
+  color: var(--gray-100);
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 8px;
+}
+
+.infoConcluedTasks {
+  color: var(--purple);
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
+}
+
+.infoConcluedTasks span {
+  color: var(--gray-100);
+  background-color: var(--gray-400);
+  padding: 0.2rem 0.8rem;
+  border-radius: 8px;
+}
+
+.contentTasks {
+  display: flex;
+  flex-direction: column;
+  border-top: 0.1rem solid var(--gray-400);
+  border-radius: 8px;
+  margin-top: 2.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentTasks img {
+  margin-top: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: var(--gray-300);
+  font-weight: bold;
+}
+
+p + p {
+  font-weight: 300;
+}
